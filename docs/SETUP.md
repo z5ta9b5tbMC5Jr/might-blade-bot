@@ -15,7 +15,7 @@ Este guia explica como criar um bot no Telegram e configurá-lo para uso com o M
 
 3. **Receba o token de acesso**
    - Após criar o bot, o BotFather fornecerá um token de acesso
-   - Este token é uma string longa como `7789048923:AAEgePnqXLfWB6zqzSi0xAwkcJ87XUS24QQ`
+   - Este token é uma string longa como `E5dEde23R1micQUaZnegjrgg331P`
    - **IMPORTANTE**: Mantenha este token privado! Não compartilhe publicamente ou inclua em repositórios públicos
 
 4. **Personalize seu bot (opcional)**
