@@ -83,7 +83,7 @@ O Might Blade Bot possui um sistema de eventos semanais, onde cada dia da semana
 
 1. Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/might-blade-bot.git
+git clone https://github.com/z5ta9b5tbMC5Jr/might-blade-bot
 cd might-blade-bot
 ```
 
