@@ -1,0 +1,454 @@
+2025-03-16 03:37:12,980 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 03:37:12,995 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 03:44:09,542 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 03:44:09,546 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 03:44:09,548 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 03:44:09,549 - bot.bot - INFO - Agendamentos configurados com sucesso
+2025-03-16 03:44:09,550 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 03:44:09,550 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 03:44:34,606 - bot.bot - CRITICAL - Erro fatal ao iniciar o bot: Rate limit excedido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\bot.py", line 132, in iniciar_bot
+    bot.polling(none_stop=True, interval=0)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\utils.py", line 17, in wrapper
+    raise CustomError("Rate limit excedido", "Você está fazendo muitas requisições. Por favor, aguarde.")
+bot.errors.CustomError: Rate limit excedido
+2025-03-16 03:47:32,325 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 03:47:32,331 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 03:47:32,332 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 03:47:32,333 - bot.bot - INFO - Agendamentos configurados com sucesso
+2025-03-16 03:47:32,334 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 03:47:32,334 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 03:47:33,559 - bot.bot - CRITICAL - Erro fatal ao iniciar o bot: Rate limit excedido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\bot.py", line 139, in iniciar_bot
+    bot.polling(none_stop=True, interval=0)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\utils.py", line 22, in wrapper
+    raise CustomError("Rate limit excedido", "Você está fazendo muitas requisições. Por favor, aguarde.")
+bot.errors.CustomError: Rate limit excedido
+2025-03-16 03:49:23,996 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 03:49:24,003 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 03:49:24,005 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 03:49:24,007 - bot.bot - INFO - Agendamentos configurados com sucesso
+2025-03-16 03:49:24,008 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 03:49:24,009 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 03:49:37,359 - bot.bot - CRITICAL - Erro fatal ao iniciar o bot: Rate limit excedido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\bot.py", line 132, in iniciar_bot
+    bot.polling(none_stop=True, interval=0)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\utils.py", line 27, in wrapper
+    raise CustomError("Rate limit excedido", "Você está fazendo muitas requisições. Por favor, aguarde.")
+bot.errors.CustomError: Rate limit excedido
+2025-03-16 03:51:28,382 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 03:51:28,388 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 03:51:28,391 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 03:51:28,392 - bot.bot - INFO - Agendamentos configurados com sucesso
+2025-03-16 03:51:28,394 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 03:51:28,395 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 03:51:45,562 - bot.bot - ERROR - Erro no comando perfil: 'Jogador' object has no attribute 'nome'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 130, in ver_perfil
+    perfil = f"*Perfil de {jogador.nome}*\n\n"
+                           ^^^^^^^^^^^^
+AttributeError: 'Jogador' object has no attribute 'nome'
+2025-03-16 03:53:00,068 - bot.bot - ERROR - Erro no comando perfil: 'Jogador' object has no attribute 'nome'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 130, in ver_perfil
+    perfil = f"*Perfil de {jogador.nome}*\n\n"
+                           ^^^^^^^^^^^^
+AttributeError: 'Jogador' object has no attribute 'nome'
+2025-03-16 03:53:48,259 - bot.bot - ERROR - Erro no comando atacar: 'Jogador' object has no attribute 'batalha'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 255, in atacar
+    _processar_resultado_batalha(message, jogador, dano, db)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 464, in _processar_resultado_batalha
+    "inimigo": jogador.batalha["inimigo"],
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Jogador' object has no attribute 'batalha'
+2025-03-16 04:09:11,315 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:09:11,318 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:09:18,276 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:09:18,279 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:09:18,280 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:09:18,281 - bot.bot - INFO - Agendamentos configurados com sucesso
+2025-03-16 04:09:18,281 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:09:18,282 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:14:14,367 - bot.bot - ERROR - Erro no comando perfil: 'Jogador' object has no attribute 'nome'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 130, in ver_perfil
+    perfil = f"*Perfil de {jogador.nome}*\n\n"
+                           ^^^^^^^^^^^^
+AttributeError: 'Jogador' object has no attribute 'nome'
+2025-03-16 04:33:20,550 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:33:20,550 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:33:20,551 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:33:20,563 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:33:20,564 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:33:21,417 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:33:21,417 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:33:21,418 - bot.bot - ERROR - Erro ao iniciar o bot: Middleware is not enabled. Use apihelper.ENABLE_MIDDLEWARE before initialising TeleBot.
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\bot.py", line 79, in main
+    @bot.middleware_handler(update_types=['message'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 7368, in decorator
+    self.add_middleware_handler(handler, update_types)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 7385, in add_middleware_handler
+    raise RuntimeError("Middleware is not enabled. Use apihelper.ENABLE_MIDDLEWARE before initialising TeleBot.")
+RuntimeError: Middleware is not enabled. Use apihelper.ENABLE_MIDDLEWARE before initialising TeleBot.
+2025-03-16 04:33:53,491 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:33:53,491 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:33:53,492 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:33:53,493 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:33:53,494 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:33:54,335 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:33:54,336 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:33:54,336 - bot.bot - INFO - Iniciando agendador de eventos
+2025-03-16 04:33:54,336 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:34:08,406 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:34:08,406 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:34:08,407 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:34:08,408 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:34:08,409 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:34:09,263 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:34:09,263 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:34:09,263 - bot.bot - INFO - Iniciando agendador de eventos
+2025-03-16 04:34:09,264 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:39:33,688 - TeleBot - ERROR - Infinity polling: polling exited
+2025-03-16 04:39:33,689 - TeleBot - ERROR - Break infinity polling
+2025-03-16 04:44:23,360 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:44:23,360 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:44:23,361 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:44:23,363 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:44:23,363 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:44:24,201 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:44:24,201 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:44:24,203 - bot.bot - INFO - Iniciando agendador de eventos
+2025-03-16 04:44:24,203 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:48:56,197 - TeleBot - ERROR - Infinity polling: polling exited
+2025-03-16 04:48:56,197 - TeleBot - ERROR - Break infinity polling
+2025-03-16 04:49:56,132 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:49:56,132 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:49:56,133 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:49:56,134 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:49:56,135 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:49:56,975 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:49:56,976 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:49:56,976 - bot.bot - INFO - Iniciando agendador de eventos
+2025-03-16 04:49:56,976 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:50:23,197 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:50:23,206 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:52:42,952 - bot.bot - ERROR - Erro no comando batalha: 'dict' object has no attribute 'nome'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 267, in iniciar_batalha
+    db.registrar_atividade(user_id, "iniciar_batalha", {"inimigo": inimigo.nome})
+                                                                   ^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'nome'
+2025-03-16 04:54:30,515 - __main__ - INFO - Iniciando Might Blade Bot...
+2025-03-16 04:54:30,515 - bot.bot - INFO - Iniciando bot...
+2025-03-16 04:54:30,516 - bot.utils - WARNING - Arquivo .env não encontrado. Usando variáveis de ambiente do sistema.
+2025-03-16 04:54:30,518 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:54:30,518 - bot.bot - INFO - Banco de dados inicializado
+2025-03-16 04:54:31,364 - bot.bot - INFO - Servidor Prometheus iniciado na porta 8000
+2025-03-16 04:54:31,365 - bot.bot - INFO - Comandos registrados com sucesso
+2025-03-16 04:54:31,365 - bot.bot - INFO - Iniciando agendador de eventos
+2025-03-16 04:54:31,366 - bot.bot - INFO - Bot iniciado com sucesso!
+2025-03-16 04:54:32,586 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:32,588 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:36,057 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:36,059 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:36,521 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:36,522 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:40,249 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:40,251 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:40,966 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:40,972 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:45,196 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:45,197 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:46,435 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:46,436 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:51,647 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:51,653 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:53,882 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:53,886 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:54:58,105 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-03-16 04:54:58,110 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\.venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2025-03-16 04:56:11,243 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:57:20,047 - bot.database - INFO - Tabelas criadas com sucesso
+2025-03-16 04:58:36,146 - bot.bot - ERROR - Erro no comando batalha: 'dict' object has no attribute 'nome'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Might Blade Bot - Projeto Definitivo\src\bot\comandos.py", line 267, in iniciar_batalha
+    db.registrar_atividade(user_id, "iniciar_batalha", {"inimigo": inimigo.nome})
+                                                                   ^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'nome'
+2025-03-16 04:59:08,386 - TeleBot - ERROR - Infinity polling: polling exited
+2025-03-16 04:59:08,387 - TeleBot - ERROR - Break infinity polling

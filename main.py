@@ -8,7 +8,7 @@ Este é o ponto de entrada principal do bot.
 
 import logging
 import sys
-from bot import iniciar_bot
+from bot import main
 
 if __name__ == "__main__":
     # Configurar logging
@@ -24,8 +24,8 @@ if __name__ == "__main__":
     
     try:
         logger.info("Iniciando Might Blade Bot...")
-        iniciar_bot()
+        main()
     except KeyboardInterrupt:
         logger.info("Bot encerrado pelo usuário")
     except Exception as e:
-        logger.critical(f"Erro fatal ao iniciar o bot: {str(e)}", exc_info=True)
+        logger.critical(f"Erro fatal ao iniciar o bot: {str(e)}", exc_info=True) 
